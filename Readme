@@ -1,0 +1,25 @@
+This python script basically helps you in the following use case :
+1. If you want to find the followers , following of a particular account 
+2. If you want to find the people whom you are following, but they ain't following you back
+3. If you want to find the people who are following you but you aren't following them back
+
+The first thing you need to do is open the credentials file and write the following details in it:
+1. username of your login account : username 
+2. password of your login account : password
+3. username of the account of which you want to collect information : username_2
+
+The format of the file input should be :
+username
+password
+username_2
+
+There should be only these three lines of details and nothing else tobe mentioned in the file, also note not to enter any number or spaces.
+
+Please note : The user whose information you are willing to get,should be an open account without their data hidden or your login account must me following them.
+So that their data is visible to your login account.
+
+
+You would be receiving you data in three files :
+1. followers.txt : This file will be containing all the followers of the username_2 account
+2. following.txt : This file will be containing all the following of the username_2 account
+3. variance.txt : This file will be containing the difference between followers and following of the username_2 account
